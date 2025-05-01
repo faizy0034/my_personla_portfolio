@@ -7,6 +7,7 @@ import Testimonials from './sections/testimonials/Testimonials'
 import FAQs from './sections/faqs/FAQS'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import FloatingNav from './sections/floating-nav/FloatingNav'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
     <Contact/>
     <Footer/>
     <FloatingNav/>
+    <SpeedInsights/>
    </main>
   )
 }
