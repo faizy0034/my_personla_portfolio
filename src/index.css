@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -164,6 +169,11 @@ img {
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+      }
+      
     body {
         font-size: 1rem;
     }
@@ -188,6 +198,11 @@ img {
 
 /* MEDIA QUERIES (phone) */
 @media screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+      }
+      
     h1{
         font-size: 2.4rem;
     }
