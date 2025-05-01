@@ -1,5 +1,5 @@
 import { FaAward } from "react-icons/fa";
-import { TbBook, TbBooks } from "react-icons/tb";
+import { TbBooks } from "react-icons/tb";
 import { BiHappyHeartEyes } from "react-icons/bi";
 
 

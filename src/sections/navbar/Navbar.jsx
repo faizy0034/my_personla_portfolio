@@ -1,4 +1,4 @@
-import Logo from '../../assets/L.F.C.jpg'
+import Logo from '../../assets/faizytechlogo.png'
 import data from './data'
 import './navbar.css'
 import { IoIosColorPalette } from 'react-icons/io'
