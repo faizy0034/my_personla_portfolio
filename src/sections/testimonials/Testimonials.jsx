@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <div className="container">
-        <h2 className="section-title">Testimonials</h2>
+        <h2>Testimonials</h2>
         <div className="testimonials-grid">
           {testimonials.map((item, index) => (
             <div key={index} className="testimonial-card">

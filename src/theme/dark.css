@@ -1,0 +1,15 @@
+:root {
+    --primary-hue: 270;
+  
+    --black-lightness: 85%;
+    --dark-lightness: 75%;
+    --light-lightness: 20%;
+    --white-lightness: 10%;
+  
+    --color-primary: hsl(var(--primary-hue), 89%, 60%);
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  }
+  

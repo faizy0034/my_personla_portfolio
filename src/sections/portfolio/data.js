@@ -1,6 +1,6 @@
-import ImagePortfolio1 from "../../assets/porfolio images/portfolio 1.png";
-import ImagePortfolio2 from "../../assets/porfolio images/portfolio 2.png";
-import ImagePortfolio3 from "../../assets/porfolio images/portfolio 3.png";
+import ImagePortfolio1 from "../../assets/porfolio images/portfolio 1.jpg";
+import ImagePortfolio2 from "../../assets/porfolio images/portfolio 2.jpg";
+import ImagePortfolio3 from "../../assets/porfolio images/portfolio 3.jpg";
 
 
 const data = [

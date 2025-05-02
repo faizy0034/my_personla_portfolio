@@ -7,12 +7,14 @@ import Testimonials from './sections/testimonials/Testimonials'
 import FAQs from './sections/faqs/FAQS'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import ThemeSwitcher from './components/ThemeSwitcher'
+import BottomNav from './sections/bottomnav/BottomNav'
 import FloatingNav from './sections/floating-nav/FloatingNav'
 
 const App = () => {
   return (
    <main>
+    <ThemeSwitcher/>
     <Navbar/>
     <Header/>
     <About/>
@@ -22,8 +24,8 @@ const App = () => {
     <FAQs/>
     <Contact/>
     <Footer/>
-    <FloatingNav/>
-    <SpeedInsights/>
+   <FloatingNav/>
+    <BottomNav/>
    </main>
   )
 }
